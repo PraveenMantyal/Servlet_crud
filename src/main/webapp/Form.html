@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1 style='color:red'>ENTER THE DETAILS</h1>
+<fieldset>
+<form action="Save">
+<table>
+<tr>
+<th>Name:</th>
+<th><input type="text" name="name"></th>
+</tr>
+<tr>
+<th>Mobile:</th>
+<th><input type="tel" name="mobileno" pattern="[0-9]{10}"></th>
+</tr>
+<tr>
+<th>Email:</th>
+<th><input type="email" name="mail"></th>
+</tr>
+<tr>
+<th>Date of Birth:</th>
+<th><input type="date" name="date"></th>
+</tr>
+<tr>
+<th>Gender:</th>
+<th>
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female</th>
+</tr>
+<tr>
+<th>Address:</th>
+<th><textarea rows="5" cols="30" name="address"></textarea></th>
+</tr>
+<tr>
+<th>Specilization:</th>
+<th>
+<input type="checkbox" name="skill" value="Leadership">Leadership
+<input type="checkbox" name="skill" value="Teamplayer">Teamplayer
+<input type="checkbox" name="skill" value="Teamspirit">Teamspirit
+</th>
+</tr>
+<tr>
+<th>Country:</th>
+<th>
+<select name="country">
+<option >India</option>
+<option >Australlia</option>
+<option >Srilanka</option>
+<option >America</option>
+</select>
+</th>
+</tr>
+<tr>
+<th> <button type="reset">Cancel</button> </th>
+<th> <button>Save</button> </th>
+</tr>
+</table>
+</form>
+</fieldset>
+</body>
+</html>
